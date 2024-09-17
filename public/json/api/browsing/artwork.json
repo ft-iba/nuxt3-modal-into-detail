@@ -1,0 +1,30 @@
+{
+    "data": [
+        {
+            "artwork_id": "artwork_id0",
+            "word_jp_1": "日本語0",
+            "word_en_1": "summer sky",
+            "spot_info": {
+                "place_id": "撮影場所のid0",
+                "place_name": "撮影場所の名称0",
+                "latitude": 0,
+                "longitude": 0,
+                "address": "string"
+            },
+            "take_date": "撮影日0"
+        },
+        {
+            "artwork_id": "artwork_id1",
+            "word_jp_1": "日本語1",
+            "word_en_1": "the world",
+            "spot_info": {
+                "place_id": "撮影場所のid1",
+                "place_name": "撮影場所の名称1",
+                "latitude": 0,
+                "longitude": 0,
+                "address": "string"
+            },
+            "take_date": "撮影日1"
+        }
+    ]
+}
