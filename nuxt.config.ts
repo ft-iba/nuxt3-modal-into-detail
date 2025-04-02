@@ -2,5 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@pinia/nuxt']
+  modules: ['@pinia/nuxt'],
+  runtimeConfig: {
+    public: {
+      commitHash: process.env.COMMIT_HASH || 'unknown'
+    }
+  }
 })

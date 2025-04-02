@@ -5,6 +5,8 @@ import ModalDialog from "~/components/ModalDialog.vue";
 const modalDialogStore = useModalDialogStore();
 const { openModalDialog } = modalDialogStore;
 
+const runtimeConfig = useRuntimeConfig();
+
 const targetId = ref<string>('');
 
 const onButtonClick = (id: string) => {
@@ -19,6 +21,7 @@ const onButtonClick = (id: string) => {
 
 <template>
   <section>
+    <p>Commit Hash: {{ runtimeConfig.public.commitHash }}</p>
     <p>モーダルの中に作品詳細を表示</p>
     <ul>
       <li>
